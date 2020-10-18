@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+    .wrapper {
+        display: flex;
+        margin-bottom: 100px;
+
+        h1 {
+            font-size: 50px;
+        }
+    
+        input {
+            border: 0;
+            outline: 0;
+            border-bottom: 1px solid;
+            font-size: 50px;
+            width: 20vh;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .message {
+        margin-bottom: 100px;
+    }
+}
